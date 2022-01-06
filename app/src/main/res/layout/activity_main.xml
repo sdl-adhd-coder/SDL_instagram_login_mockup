@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ig_logo_01"
+        android:layout_gravity="center"
+        android:layout_marginTop="180dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone number, username or email"
+        android:inputType="text"
+        android:background="#fafafa"
+        android:textSize="15dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:paddingLeft="15dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:background="#fafafa"
+        android:textSize="15dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:paddingLeft="15dp"
+        android:shadowDx="0"
+        android:shadowDy="0"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot password?"
+        android:textColor="#208ccc"
+        android:gravity="right"
+        android:layout_margin="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:textSize="15dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:backgroundTint="#77c7f8"
+        android:paddingLeft="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/fb_logo_01"
+            android:layout_marginRight="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Continue as Dave Johnson"
+            android:textStyle="bold"
+            android:textColor="#208ccc"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account?"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up."
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+        android:textColor="#208ccc"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
